@@ -1,6 +1,5 @@
 def avg(data):
     total=0
-    # print(total)
     mycount=data["count"]
     for n in range(mycount):
         total+=data["employees"][n]["salary"]
